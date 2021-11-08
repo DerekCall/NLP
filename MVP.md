@@ -4,10 +4,11 @@
  The back cover of books often include a description or compelling narrative, but also common are reviews by publishers or other authors.
  The dataset I am using has over 57,000 books and I currently have it divided into 12 topic groups.
  
- ![](https://github.com/DerekCall/linear_regression_metis/blob/main/Screen%20Shot%202021-09-28%20at%205.14.03%20PM.png?raw=true)
+ ![](https://github.com/DerekCall/NLP/blob/main/countvectorizer-12-topics.png)
  
-I will continue to verify if a simple regression model will be most appropriate for this data set. If a Ridge or Lasso model gives a higher r-squared value we will continue with that model on the test data. 
+These topic groups were found using the CountVectorizer tool in scikit-learn Python library. Using the TruncatedSVD tool I was able to reduce the 
+dimensionality of the data to 12 topics and then print the top words in each topic category.
 
-This preliminary analysis has shown that the current rating of the game affects the predicted complexity the most. Other important features are the type of the game and maximum estimated playing time from the manufacturer. 
+Currently I am able to view many seemingly distinct topic groups. The top groups that stand out currently are
 
 
