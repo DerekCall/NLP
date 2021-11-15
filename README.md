@@ -1,8 +1,6 @@
-# NLP project
+# Judging a Book by its Cover
+### Topic Modeling with Natural Language Processing
 
-NLP Unsupervised Write Up
-Topic Model for Books
-Derek Call
 
 Abstract
 
